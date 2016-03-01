@@ -1,0 +1,116 @@
+body { background-color: #C52C4D;} 
+.header {
+	position: relative;
+	width: 100%;
+	height: 30px;
+	background-color:#F9F9F9;
+	color: #A7A7A7;
+}
+.header .mid {
+	position: absolute;
+	width: 960px;
+	margin-left:auto;
+	margin-right:auto;
+	bottom: 0;
+	left: 50%;
+				-webkit-transform: translateX(-50%) translateY(-50%);
+			    -moz-transform: translateX(-50%) translateY(-50%);
+			    -ms-transform: translateX(-50%) translateY(-50%);
+			    -o-transform: translateX(-50%) translateY(-50%);
+			    transform: translateX(-50%) translateY(-50%);
+}
+.container {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 50px;
+}
+.form {
+	width: 50%;
+	float:left;
+}
+.result {
+	width: 50%;
+	float:left;
+
+}
+
+.btn {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f3df00+0,f5cbc6+29,df3f73+100 */
+background: rgb(243,223,0); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(243,223,0,1) 0%, rgba(245,203,198,1) 29%, rgba(223,63,115,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(243,223,0,1) 0%,rgba(245,203,198,1) 29%,rgba(223,63,115,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(243,223,0,1) 0%,rgba(245,203,198,1) 29%,rgba(223,63,115,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3df00', endColorstr='#df3f73',GradientType=1 ); /* IE6-9 */
+
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border: 1px solid;
+border-color: #F8E71C;
+}
+
+.btn:hover {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f3df00+0,f5cbc6+29,df3f73+100 */
+background: rgb(243,223,0); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(243,223,0,1) 0%, rgba(245,203,198,1) 29%, rgba(223,63,115,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(243,223,0,1) 0%,rgba(245,203,198,1) 29%,rgba(223,63,115,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(243,223,0,1) 0%,rgba(245,203,198,1) 29%,rgba(223,63,115,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3df00', endColorstr='#df3f73',GradientType=0 ); /* IE6-9 */
+
+  text-decoration: none;
+}
+
+
+
+.innerresult {
+	border-top-left-radius: 2em;
+	min-height: 300px;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f3df00+0,f5cbc6+50,df3f73+100 */
+background: rgb(243,223,0); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(243,223,0,1) 0%, rgba(245,203,198,1) 50%, rgba(223,63,115,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(243,223,0,1) 0%,rgba(245,203,198,1) 50%,rgba(223,63,115,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(243,223,0,1) 0%,rgba(245,203,198,1) 50%,rgba(223,63,115,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3df00', endColorstr='#df3f73',GradientType=0 ); /* IE6-9 */
+position: relative;
+border: 1px solid;
+border-color: #F8E71C;
+ -webkit-box-shadow: 11px 8px 17px -6px rgba(0,0,0,0.75);
+-moz-box-shadow: 11px 8px 17px -6px rgba(0,0,0,0.75);
+box-shadow: 11px 8px 17px -6px rgba(0,0,0,0.75);
+}
+
+.lampleft {
+	width: 58px;
+	background-image: url('../img/lampy.png');
+	height:100%;
+	position: absolute;
+	left:0;
+}
+.lampright {
+	width: 58px;
+	background-image: url('../img/lampy.png');
+	height:100%;
+	position: absolute;
+	right:0;
+}
+.lampbottom {
+	height: 58px;
+	background-image: url('../img/lampx.png');
+	width:100%;
+	position: absolute;
+	bottom:0;
+}
+
+.lamptop {
+	height: 58px;
+	background-image: url('../img/lampx.png');
+	width:100%;
+	position: absolute;
+	top:3;
+}
